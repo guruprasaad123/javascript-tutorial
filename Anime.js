@@ -11,8 +11,9 @@ constructor(name,episode)
 getDetails()
 {
 
-    return `the name : ${this.name} and the episode  : ${this.episode}`;
+    
     this.emit('details');
+    return `the name : ${this.name} and the episode  : ${this.episode}`;
 }
 
 }

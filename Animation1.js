@@ -14,9 +14,10 @@ util.inherits(Animation,events);
 
 
 Animation.prototype.getDetails= function()
-{
+{ 
+  this.emit('details',this.name);
   return `the name : ${this.name} and the episode  : ${this.episode}`;
-  this.emit('details',name);
+
 };
 
 let anime = new Animation('naruto',423);
