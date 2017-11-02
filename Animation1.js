@@ -1,3 +1,5 @@
+'use strict';
+
 let events = require('events');
 let util= require('util');
 
@@ -8,14 +10,17 @@ this.name=name;
 this.episode=episode;
 }
 
-//util.inherits(Animation,events);
-Animation.prototype.__proto__= events.prototype;
+util.inherits(Animation,events);
+
 
 Animation.prototype.getDetails= function()
 {
   return `the name : ${this.name} and the episode  : ${this.episode}`;
-  this.emits('details');
+  this.emit('details',name);
 };
 
 let anime = new Animation('naruto',423);
+anime.on('details',function(name){
+  console.log('Details called..'+name);
+})
 console.log(anime.getDetails());

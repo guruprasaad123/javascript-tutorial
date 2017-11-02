@@ -15,12 +15,11 @@ this.episode=episode;
 getDetails()
 {
 return `the name : ${this.name} and the episode  : ${this.episode}`;
-this.emits('details');
+this.emit('details');
 }
 
 
 
 }
 
-let anime = new Animation('naruto',323);
-console.log(anime.getDetails());
+module.exports=Animation;
