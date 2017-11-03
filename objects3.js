@@ -12,6 +12,7 @@ Animal.prototype.eat = function() {
 function Rabbit(name) {
   this.name = name;
 }
+
 console.log('before  \u00A9');
 console.log(Rabbit.prototype);
 console.log(Rabbit.prototype.__proto__);
@@ -28,4 +29,17 @@ console.log(Rabbit.prototype.__proto__);
 
 let rabbit = new Rabbit("White Rabbit");
 rabbit.eat(); // rabbits can eat too
+rabbit.jump(); // jump is no longer available
+
+
+Rabbit.prototype=Animal.prototype;
+console.log('after \u00A9');
+
+console.log(Rabbit.prototype);
+console.log(Rabbit.prototype.__proto__);
+
+
+ rabbit = new Rabbit("White Rabbit");
+rabbit.eat(); // rabbits can eat too
+
 rabbit.jump();
