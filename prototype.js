@@ -10,6 +10,7 @@ let animal={
   {
     console.log('walk');
   },
+ 
   current()
   {
     console.log(this);
