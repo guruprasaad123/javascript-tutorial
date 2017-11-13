@@ -13,6 +13,7 @@ arr.shift() – extracts an item from the beginning,
 arr.unshift(...items) – adds items to the beginning.
 */
 console.log(array);
+console.log(array instanceof Array);
 let index = array.length;
 console.log('poping the elements '+"\u00A9");
 while(index--)
