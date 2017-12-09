@@ -26,4 +26,7 @@ let obj= {
 }
  let  map1 = new Map(Object.entries(obj));
 
- console.log(obj);
+for([key,value] of map1)
+{
+  console.log(`key  : ${key} , value : ${value}`);
+}
