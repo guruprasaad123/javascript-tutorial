@@ -6,8 +6,9 @@ sleep(5000);
   return true;
 };
   console.log(val);
+
 }
 
-
 wait();
-console.log('hellow world');
+
+console.log('hello world');

@@ -19,7 +19,6 @@ this.emit('details');
 }
 
 
-
 }
 
 module.exports=Animation;
