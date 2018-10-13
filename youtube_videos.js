@@ -3,7 +3,7 @@ let Youtube = require('simple-youtube-api');
 let description = require('./youtube_desp');
 let fs= require('fs');
 let args=process.argv;
-
+process.env['NODE_TLS_REJECT_UNAUTHORIZED']=0;
 if(args[2])
 {
 let exp =  /^https:\/\/www\.youtube\.com\/watch\?v\=\S{11}$/gi;

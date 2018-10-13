@@ -1,0 +1,27 @@
+Can AI be used in the financial sector? Of course! In fact, finance was one of the pioneering industries that started using AI in the early 80s for market prediction. Since then, major financial firms and hedge funds have adopted AI technologies for everything from portfolio optimization, to credit lending, to stock betting. In this video, we'll go over all the different ways AI can be used in applied finance, then build a stock price prediction algorithm in python using Keras and Tensorflow.
+
+Code for this video:
+https://github.com/llSourcell/AI_in_Finance
+
+Please Subscribe! And like. And comment. That's what keeps me going. 
+
+Want more education? Connect with me here:
+Twitter: https://twitter.com/sirajraval
+Facebook: https://www.facebook.com/sirajology
+instagram: https://www.instagram.com/sirajraval
+
+More learning resources:
+https://hackernoon.com/unsupervised-machine-learning-for-fun-profit-with-basket-clusters-17a1161e7aa1
+https://www.datacamp.com/community/tutorials/finance-python-trading
+http://www.cuelogic.com/blog/python-in-finance-analytics-artificial-intelligence/
+https://www.udacity.com/course/machine-learning-for-trading--ud501
+https://www.oreilly.com/learning/algorithmic-trading-in-less-than-100-lines-of-python-code
+
+Join us in the Wizards Slack channel:
+http://wizards.herokuapp.com/
+
+Sign up for the next course at The School of AI:
+https://www.theschool.ai
+
+And please support me on Patreon:
+https://www.patreon.com/user?u=3191693

@@ -1,0 +1,28 @@
+Neuroevolution is a technique that uses evolutionary algorithms to generate artificial neural networks (ANN), parameters, topology and rules. We can think of it as an optimization strategy, similar to gradient descent, that can in some cases be faster to converge and give better results. We're going to simulate evolution by creating neural network creatures in javascript and having them evolve over time to try and walk across the screen. I'll discuss the steps that our algorithm will take, then code out the neural network class at the end of the video. 
+
+Code for this video: 
+https://github.com/llSourcell/Modeling_Evolution_with_TensorflowJS
+
+Please Subscribe! And like. And comment. That's what keeps me going. 
+
+Want more education? Connect with me here:
+Twitter: https://twitter.com/sirajraval
+Facebook: https://www.facebook.com/sirajology
+instagram: https://www.instagram.com/sirajraval
+
+More learning resources:
+https://medium.com/tensorflow/a-gentle-introduction-to-tensorflow-js-dba2e5257702
+http://thecodingtrain.com/CodingChallenges/100.2-neuroevolution-flappy-bird.html
+https://becominghuman.ai/designing-ai-solving-snake-with-evolution-f3dd6a9da867
+https://www.cs.ucf.edu/~kstanley/neat.html
+https://blog.coast.ai/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164
+https://eng.uber.com/deep-neuroevolution/
+
+Join us in the Wizards Slack channel:
+http://wizards.herokuapp.com/
+
+Sign up for the next course at The School of AI:
+https://www.theschool.ai
+
+And please support me on Patreon:
+https://www.patreon.com/user?u=3191693

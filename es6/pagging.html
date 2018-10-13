@@ -1,0 +1,95 @@
+<html>
+<head>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css>
+</head>
+<body>
+
+<div class="container">
+
+<table id="table"  data-show-header="true" data-pagination="true"
+           data-id-field="name"
+           data-page-list="[5, 10, 25, 50, 100, ALL]"
+           data-page-size="5">
+    <thead>
+    <tr>
+        <th data-field="name" data-formatter="nameFormatter">Name</th>
+        <th data-field="stargazers_count" data-formatter="starsFormatter">Stars</th>
+        <th data-field="forks_count" data-formatter="forksFormatter">Forks</th>
+        <th data-field="description">Description</th>
+    </tr>
+    </thead>
+  <tbody>
+	</tbody>
+</table>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" >
+var data = [
+    {
+        name: "bootstrap-table",
+        stargazers_count: "526",
+        forks_count: "122",
+        description: "An extended Bootstrap table with radio, checkbox, sort, pagination, and other added features. (supports twitter bootstrap v2 and v3) "
+    },
+    {
+        name: "multiple-select",
+        stargazers_count: "288",
+        forks_count: "150",
+        description: "A jQuery plugin to select multiple elements with checkboxes :)"
+    },
+    {
+        name: "bootstrap-show-password",
+        stargazers_count: "32",
+        forks_count: "11",
+        description: "Show/hide password plugin for twitter bootstrap."
+    },
+    {
+        name: "blog",
+        stargazers_count: "13",
+        forks_count: "4",
+        description: "my blog"
+    },
+    {
+        name: "scutech-redmine",
+        stargazers_count: "6",
+        forks_count: "3",
+        description: "Redmine notification tools for chrome extension."
+    },
+    {
+        name: "scutech-redmine1",
+        stargazers_count: "6",
+        forks_count: "3",
+        description: "Redmine notification tools for chrome extension."
+    }
+];
+
+function nameFormatter(value) {
+    return '<a href="https://github.com/wenzhixin/' + value + '">' + value + '</a>';
+}
+
+function starsFormatter(value) {
+    return '<i class="glyphicon glyphicon-star"></i> ' + value;
+}
+
+function forksFormatter(value) {
+    return '<i class="glyphicon glyphicon-cutlery"></i> ' + value;
+}
+
+$(document).ready(function () {
+    $('#table').DataTable({
+        data: data
+    });
+});
+</script>
+
+</body>
+</html>

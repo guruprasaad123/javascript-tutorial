@@ -1,0 +1,14 @@
+{
+  "name": "fb",
+  "version": "1.0.0",
+  "description": "A sample firebase application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "firebase": "^4.6.2"
+  },
+  "author": "guru",
+  "license": "ISC"
+}

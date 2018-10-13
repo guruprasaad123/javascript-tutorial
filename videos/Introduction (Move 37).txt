@@ -1,0 +1,30 @@
+Welcome to my new reinforcement learning course titled Move 37! in this 10 week course we'll go over the basics of reinforcement learning up to modern day techniques that involve neural networks called 'deep' reinforcement learning. In this first video, i'll introduce the idea of a Markov Decision Process. This is the basic mathematical framework for framing the reinforcement learning problem. We'll also briefly mention the ideas of a 'policy' and the agent-environment loop. Get hype!
+
+Code for this video:
+https://github.com/llSourcell/Introduction_Move37
+
+Please Subscribe! And like. And comment. That's what keeps me going. 
+
+The School of AI website is undergoing a site migration right now to handle all the traffic + upgrade the layout. It will be down for the next few hours but check back soon. I promise, you won't miss anything and i'll keep you updated via all my social channels:
+https://www.theschool.ai
+
+Want more education? Connect with me here:
+Twitter: https://twitter.com/sirajraval
+Facebook: https://www.facebook.com/sirajology
+instagram: https://www.instagram.com/sirajraval
+
+Github Syllabus:
+https://github.com/llSourcell/Move_37_Syllabus
+
+More learning resources:
+https://towardsdatascience.com/reinforcement-learning-demystified-markov-decision-processes-part-1-bf00dda41690
+https://www.cs.rice.edu/~vardi/dag01/givan1.pdf
+http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/MDP.pdf
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-825-techniques-in-artificial-intelligence-sma-5504-fall-2002/lecture-notes/Lecture20FinalPart1.pdf
+https://artint.info/html/ArtInt_224.html
+
+Join us in the Wizards Slack channel:
+http://wizards.herokuapp.com/
+
+And please support me on Patreon:
+https://www.patreon.com/user?u=3191693

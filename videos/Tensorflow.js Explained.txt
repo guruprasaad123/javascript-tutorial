@@ -1,0 +1,25 @@
+Tensorflow.js is Google's new Javascript verison of its popular Machine Learning library Tensorflow. This allows developers, hobbyists, and researchers to build & train AI models in the browser! It allows for both training and inference to happen entirely client-side, which means we can utilize our users GPUs (all types). This is really exciting, it opens up a whole new world of machine learning possibilities, especially for training on real-time data streams directly from our users. I'll explain the code behind an object detection app using the library in this video, as well as the different parts of the library. 
+
+Code for this video:
+https://github.com/llSourcell/tensorflow.js_explained
+Please Subscribe! And like. And comment. That's what keeps me going. 
+
+Want more education? Connect with me here:
+Twitter: https://twitter.com/sirajraval
+Facebook: https://www.facebook.com/sirajology
+instagram: https://www.instagram.com/sirajraval
+
+More learning resources:
+https://www.youtube.com/watch?v=Y_XM3Bu-4yc&t=561s
+https://www.youtube.com/watch?v=YB-kfeNIPCE
+https://github.com/tensorflow/tfjs-examples
+https://js.tensorflow.org/
+
+Join us in the Wizards Slack channel:
+http://wizards.herokuapp.com/
+
+Sign up for the next course at The School of AI:
+https://www.theschool.ai
+
+And please support me on Patreon:
+https://www.patreon.com/user?u=3191693

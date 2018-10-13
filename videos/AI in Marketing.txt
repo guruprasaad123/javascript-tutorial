@@ -1,0 +1,27 @@
+Audience targeting and automatic content creation are just a few of the many ways AI can be used to help grow your user base and increase sales. In this video, i'll go over some startups that are applying AI to the marketing space and then programmatically walk through some AI techniques like matrix factorization, SVD, and LSTM neural networks that help a marketer outperform the competition and get the optimal results for their business. We've got quite a lot to cover in this video! 
+
+Code for this video:
+https://github.com/llSourcell/AI_In_Marketing
+
+Please Subscribe! And like. And comment. That's what keeps me going. 
+
+Want more education? Connect with me here:
+Twitter: https://twitter.com/sirajraval
+Facebook: https://www.facebook.com/sirajology
+instagram: https://www.instagram.com/sirajraval
+
+More learning resources:
+https://www.youtube.com/watch?v=cdLUzrjnlr4
+https://www.youtube.com/watch?v=BwmddtPFWtA
+https://www.thinkwithgoogle.com/marketing-resources/ai-personalized-marketing/
+https://medium.com/the-mission/how-to-boost-your-marketing-with-artificial-intelligence-8c092d7e3f7d
+https://www.youtube.com/watch?v=9gBC9R-msAk
+
+Join us in the Wizards Slack channel:
+http://wizards.herokuapp.com/
+
+Sign up for the next course at The School of AI:
+https://www.theschool.ai
+
+And please support me on Patreon:
+https://www.patreon.com/user?u=3191693
