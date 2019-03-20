@@ -43,7 +43,9 @@ function generateData(structure,referral)
        referralId,
        createdAt:new Date().getTime(),
        active:true,
-       lastActive:'seen'
+       lastActive:'seen',
+       currency:'IND',
+       credit:2500
             };
 
     return object;
@@ -54,6 +56,7 @@ function Hash(name)
   const string =  variableHash(28,name,'utf-8').toString('utf-8');
   return string;
 }
+
 
 function Modelize(structure,object,Root=false)
 {

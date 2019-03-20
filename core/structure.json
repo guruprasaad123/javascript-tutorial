@@ -1,59 +1,358 @@
 {
-  "name":"guru",
-  "child":[
+  "name": "guru",
+  "child": [
     {
-    "name":"sathya",
-    "child":[{
-      "name":"hari",
-      "child":[]
-    },
-    {
-      "name":"jagi",
-      "child":[]
-    },
-    {
-      "name":"ashwin",
-      "child":[]
+      "name": "sathya",
+      "child": [
+        {
+          "name": "hari",
+          "child": [
+            {
+              "name": "mugil",
+              "child": [{
+                "name":"mugil",
+                "child":[
+                  {
+                    "name":"linda",
+                    "child":[
+                      {
+                        "name":"pandi",
+                        "child":[{
+                          "name":"roopa",
+                          "child":[
+                            {
+                              "name":"praveen",
+                              "child":[
+                                {
+                                  "name":"richard",
+                                  "child":[{
+                                    "name":"potter",
+                                    "child":[]
+                                  }]
+                                }]
+                            }]
+                        }]
+                      }
+                      ]
+                  }
+                  ]
+              }]
+            }
+          ]
+        },
+        {
+          "name": "jagi",
+          "child": [{
+            "name":"guevara",
+            "child":[{
+              "name":"shreya",
+              "child":[{
+                "name":"deepak",
+                "child":[
+                  {
+                    "name":"keerthi",
+                    "child":[{
+                      "name":"varum",
+                      "child":[{
+                        "name":"zellet",
+                        "child":[{
+                          "name":"harry",
+                          "child":[]
+                        }]
+                      }]
+                    }]
+                  }]
+              }]
+            }]
+          },
+          {
+            "name":"warrrior",
+            "child":[{
+              "name":"ranjith",
+              "child":[
+                {
+                "name":"deepthi",
+                "child":[
+                  {
+                 "name":"jesio",
+                 "child":[{
+                   "name":"gautham",
+                   "child":[{
+                     "name":"joe",
+                     "child":[{
+                       "name":"malini",
+                       "child":[]
+                     }]
+                   }]
+                 }]
+                  }
+                ]
+            }]
+          }]
+        },
+        {
+          "name": "ashwin",
+          "child": [{
+            "name":"priya",
+            "child":[
+              {
+                "name":"indu",
+                "child":[{
+                  "name":"aarthi",
+                  "child":[{
+                    "name":"supriya",
+                    "child":[{
+                      "name":"jeshya",
+                      "child":[{
+                        "name":"david",
+                        "child":[
+                          {
+                            "name":"vivek",
+                            "child":[]
+                          }]
+                      }]
+                    }]
+                  }]
+                }]
+              }]
+          }]
+        }
+      ]
+    
+      
     }
     ]
     },
+
     {
-      "name":"dilep",
-      "child":[
+      "name": "dilep",
+      "child": [
         {
-          "name":"gokul",
-          "child":[]
+          "name": "gokul",
+          "child": [{
+            "name":"ashwi",
+            "child":[{
+              "name":"kumar",
+              "child":[{
+                "name":"ranjith",
+                "child":[{
+                  "name":"gayu",
+                  "child":[{
+                    "name":"roshan",
+                    "child":[{
+                      "name":"pump",
+                      "child":[{
+                        "name":"samantha",
+                        "child":[]
+                      }]
+                    }]
+                  }]
+                }]
+              }]
+            }]
+          }]
         },
         {
-          "name":"robo",
-          "child":[]
+          "name": "robo",
+          "child": [{
+            "name":"frooti",
+            "child":[{
+              "name":"rachel",
+              "child":[{
+                "name":"divya",
+                "child":[{
+                  "name":"vanathi",
+                  "child":[{
+                    "name":"gopi",
+                    "child":[{
+                      "name":"carputer",
+                      "child":[{
+                        "name":"aaryan",
+                        "child":[]
+                      }]
+                    }]
+                  }]
+                }]
+              }]
+            }]
+          },
+          {
+            "name":"kriti",
+            "child":[{
+              "name":"anto",
+              "child":[{
+                "name":"vimal",
+                "child":[{
+                  "name":"srileka",
+                  "child":[{
+                    "name":"asaru",
+                    "child":[{
+                      "name":"flash",
+                      "child":[{
+                        "name":"bala",
+                        "child":[]
+                      }]
+                    }]
+                  }]
+                }]
+              }]
+            }]
+          }]
         },
         {
-          "name":"krishi",
-          "child":[]
+          "name": "krishi",
+          "child": [{
+            "name":"frithi",
+            "child":[{
+              "name":"linda",
+              "child":[{
+                "name":"sneha",
+                "child":[{
+                  "name":"anusha",
+                  "child":[{
+                    "name":"surender",
+                    "child":[{
+                      "name":"keerthy",
+                      "child":[{
+                        "name":"sukur",
+                        "child":[]
+                      }]
+                    }]
+                  }]
+                }]
+              }]
+            }]
+          },{
+          "name":"ramesh",
+          "child":[{
+            "name":"priv",
+            "child":[{
+              "name":"baskar",
+              "child":[{
+                "name":"arun",
+                "child":[{
+                  "name":"prithvi",
+                  "child":[{
+                    "name":"aarthrey",
+                    "child":[{
+                      "name":"sukur",
+                      "child":[]
+                    }]
+                  }]
+                }]
+              }]
+            }]
+          }]
+          }]
         }
-        
-        ]
-    },{
-      "name":"jaz",
-      "child":[
+      ]
+    },
+    {
+      "name": "jaz",
+      "child": [
         {
-          "name":"adi",
-          "child":[]
+          "name": "adi",
+          "child": [{
+            "name":"ravi",
+            "child":[{
+              "name":"raju",
+              "child":[{
+                "name":"sridhar",
+                "child":[{
+                  "name":"priya",
+                  "child":[{
+                    "name":"sanjay",
+                    "child":[{
+                      "name":"starboy",
+                      "child":[{
+                        "name":"gugan",
+                        "child":[]
+                      }]
+                    }
+                    ]
+                  }]
+                }]
+              }]
+            }]
+          }]
         },
         {
-          "name":"niti",
-          "child":[]
+          "name": "niti",
+          "child": [{
+            "name":"ragu",
+            "child":[{
+              "name":"suretri",
+              "child":[{
+                "name":"pooja",
+                "child":[{
+                  "name":"sneha",
+                  "child":[{
+                    "name":"swamy",
+                    "child":[{
+                      "name":"abishek",
+                      "child":[{
+                        "name":"sarkari",
+                        "child":[]
+                      }]
+                    }]
+                  }]
+                }]
+              }]
+            }]
+          }]
         },
         {
-          "name":"goti",
-          "child":[]
+          "name": "goti",
+          "child": [{
+            "name":"pragi",
+            "child":[{
+              "name":"ranvi",
+              "child":[{
+                "name":"subu",
+                "child":[{
+                  "name":"shanthu",
+                  "child":[{
+                    "name":"dhanu",
+                    "child":[{
+                      "name":"abdulla",
+                      "child":[{
+                        "name":"akash",
+                        "child":[]
+                      }]
+                    }]
+                  }]
+                }]
+              }]
+            }]
+          }]
         },
         {
-          "name":"vicky",
-          "child":[]
+          "name": "vicky",
+          "child": [{
+            "name":"mark",
+            "child":[{
+              "name":"mishra",
+              "child":[{
+                "name":"sandra",
+                "child":[{
+                  "name":"devi",
+                  "child":[{
+                    "name":"akdhil",
+                    "child":[{
+                      "name":"jai",
+                      "child":[{
+                        "name":"raju",
+                        "child":[]
+                      }]
+                    }]
+                  }]
+                }]
+              }]
+            }]
+          }]
         }
-        ]
+      ]
     }
   ]
+
 }

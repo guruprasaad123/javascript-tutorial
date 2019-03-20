@@ -114,6 +114,32 @@ const write = [
 ];
 
 
+const Collections=[
+  "browse/system/collections-snippet-published/all",
+  "browse/system/collections-snippet-published/CST-1-corporate-all-sectors",
+  "browse/system/collections-snippet-published/CST-1-corporate-enterprises",
+  "browse/system/collections-snippet-published/CST-1-corporate-tech-companies",
+  "browse/system/collections-snippet-published/CST-2-product-analytics-product-1",
+  "browse/system/collections-snippet-published/CST-2-product-customer-service-product-1",
+  "browse/system/collections-snippet-published/CST-3-service-digital-solutions",
+  "browse/system/collections-snippet-published/CST-3-service-infrastructure-engineering",
+  "browse/system/collections-snippet-published/CST-4-domain-agricultural-products",
+  "browse/system/collections-snippet-published/CST-4-domain-banks-and-financial-services",
+  "browse/system/collections-snippet-published/CST-4-domain-pharma-biotech-and-life-sciences",
+  "browse/system/collections-snippet-published/CST-4-domain-retail",
+  "browse/system/collections-snippet-published/CST-4-domain-utilities",
+  "browse/system/collections-snippet-published/CST-5-lob-asset-management",
+  "browse/system/collections-snippet-published/CST-5-lob-health-safety-sustainability",
+  "browse/system/collections-snippet-published/CST-5-lob-information-technology",
+  "browse/system/collections-snippet-published/CST-5-lob-marketing",
+  "browse/system/collections-snippet-published/CST-5-lob-sales",
+  "browse/system/collections-snippet-published/CST-5-lob-service",
+  "browse/system/collections-snippet-published/CST-5-lob-supply-chain-procurement",
+  "browse/system/collections-snippet-published/CST-6-focus-theme-digital",
+  "browse/system/collections-snippet-published/CST-9-digital-commerce",
+  "browse/system/collections-snippet-published/CST-9-gc-platform-re-engineering",
+  "browse/system/collections-snippet-published/CST-9-gemini-national-grid-transco"
+  ];
 var config = {
   apiKey: "AIzaSyDCRN0VvElx8Xos0kf3eYDs576QDCzOJZ4",
   authDomain: "caseletize-demo.firebaseapp.com",
@@ -163,6 +189,10 @@ reference.update(sortParams);
 
 }
 
+
+// CAT
+// CUS
+// IND
 function getSortParams(identifiers)
 {
   

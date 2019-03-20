@@ -10,6 +10,25 @@ let exp =  /^https:\/\/www\.youtube\.com\/watch\?v\=\S{11}$/gi;
 let link = new RegExp(exp);
 let youtube = new Youtube('AIzaSyCN4DRqOav_BIvbX30nQO4G6vU9Ot1ZdCM');
 
+  if(args[3]==='--playlist')
+  {
+    youtube.getPlaylistByID('PL2-dafEMk2A7EEME489DsI468AB0wQsMV')
+    .then(playlist => {
+      if (playlist){
+        playlist.getVideos().then( videos =>{
+         videos.map( (video ,index) =>{
+           console.log('Video => ',video.title,index);
+           description(video,fs,playlist.title,index+1);
+         } )
+        }).catch(console.error)
+        }
+      else{
+         console.log('playlist not found :(');
+        }
+    })
+    .catch(console.error);
+    return ;
+  }
   if( args[2].match(link) )
   {
     console.log('youtube link found');

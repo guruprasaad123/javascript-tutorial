@@ -1,14 +1,20 @@
-module.exports=function(results,fs)
+module.exports=async function(results,fs,playlist=false,index=0)
 {
 results.title=  results.title.replace('?','');
-<<<<<<< HEAD
 results.title = results.title.replace('|','');
-=======
->>>>>>> 5dcb633ba0d3b280070abfa986a116266c10cdd7
-     let writable = fs.createWriteStream(__dirname+`/videos/${results.title}.md`,{encoding:'utf8'});
+if(playlist)
+{
+if (!fs.existsSync('./videos/'+playlist)){
+ await fs.mkdirSync('./videos/'+playlist);
+}
+}
+
+let path = playlist? __dirname+`/videos/${playlist}/${results.title}[${index}].md`:
+(__dirname+`/videos/${results.title}.md`);
+     let writable = fs.createWriteStream(path,{encoding:'utf8'});
 
      writable.write(results.description,function(){
-       console.log('written');
+       console.log('written ',results.title);
      });
      console.log(results.description);
 
