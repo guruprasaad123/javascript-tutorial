@@ -12,7 +12,7 @@ let youtube = new Youtube('AIzaSyCN4DRqOav_BIvbX30nQO4G6vU9Ot1ZdCM');
 
   if(args[3]==='--playlist')
   {
-    youtube.getPlaylistByID('PL2-dafEMk2A7EEME489DsI468AB0wQsMV')
+    youtube.getPlaylistByID(args[2])
     .then(playlist => {
       if (playlist){
         playlist.getVideos().then( videos =>{

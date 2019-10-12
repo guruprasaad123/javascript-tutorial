@@ -1,0 +1,6 @@
+In this OpenCV with Python tutorial, we're going to cover how to create a sort of filter, revisiting the bitwise operations, where we will filter for specifically a certain color, attempting to just show it. Alternatively, you could also specifically filter out a specific color, and then replace it with a scene, like we did with replacing a ROI (region of image) with something else, much like how a green screen works.
+
+In order to filter like this you have a few options. Generally, you are probably going to convert your colors to HSV, which is "Hue Saturation Value." This can help you actually pinpoint a more specific color, based on hue and saturation ranges, with a variance of value, for example. If you wanted, you could actually produce filters based on BGR values, but this would be a bit more difficult. If you're having a hard time visualizing HSV, don't feel silly, check out the Wikipedia page on HSV, there is a very useful graphic there for you to visualize it. Hue for color, saturation for the strength of the color, and value for light is how I would best describe it personally. Now let's hop in.
+
+http://pythonprogramming.net
+https://twitter.com/sentdex

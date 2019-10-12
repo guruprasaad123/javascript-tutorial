@@ -2,6 +2,9 @@ module.exports=async function(results,fs,playlist=false,index=0)
 {
 results.title=  results.title.replace('?','');
 results.title = results.title.replace('|','');
+results.title = results.title.replace('/','');
+results.title = results.title.replace(':','');
+
 if(playlist)
 {
 if (!fs.existsSync('./videos/'+playlist)){
